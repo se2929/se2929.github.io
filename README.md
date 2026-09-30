@@ -1,21 +1,24 @@
 # Sangah Lee — Academic research portfolio
 
-Personal academic website for Sangah Lee, a DGIST undergraduate interested in physics-informed machine learning, electrochemical interfaces, and atomistic modeling.
-
 Website: https://se2929.github.io
 
-## Structure
+A static multipage academic website. The home page contains a short introduction, an intentionally empty personal portrait slot, and clickable research images and titles leading to separate introduction pages.
 
-- `index.html`: biography, research overview, academic background, and contact.
-- `styles.css`: responsive layout and visual styling.
-- `app.js`: research details, workflow stages, waveform explorer, and illustrative weighting demo.
-- `protocols.js`: 20 deterministic candidate waveforms exported from the research notebook.
-- `experimental-setup.webp` and `weef-poster.webp`: figures from the WEEF & GEDC 2025 team poster.
+## Pages
 
-This static website runs on GitHub Pages without a build step. Optional Google Fonts have system-font fallbacks.
+- `index.html`: compact home page
+- `about.html`: academic profile
+- `machine-learning.html`: physics-informed machine learning
+- `electrochemistry.html`: CO₂ reduction and electrochemical interfaces
+- `mlip.html`: prospective ML interatomic potential interests
+- `workflow.html`: interactive notebook workflow and 20 candidate waveforms
+- `selection.html`: selection-method explanation and illustrative weights
+- `poster.html`: WEEF & GEDC 2025 team poster
 
-## Research context
+## Assets and implementation
 
-The adaptive information-weighted notebook revision is presented as a method pending full evaluation. The weighting demo uses hypothetical inputs; it is not a model-performance result. MLIP topics are future research interests. The extended CO₂RR comparisons show reported gas-product endpoints, not reconstructed time traces.
+`pages.css` and `styles.css` style the pages. `page-interactions.js` runs the workflow tabs, waveform explorer, endpoint comparison, and weighting demo. `protocols.js` contains the 20 deterministic candidate waveforms exported from the research notebook. The electrochemistry card photograph is an original image extracted from the supplied research poster. The other cards use a notebook waveform preview and a conceptual MLIP diagram. The personal portrait slot stays empty until a portrait is supplied.
 
-Original CV and team-report files are not distributed through this repository. Research poster author credits are retained.
+GitHub Pages serves `main` at the repository root; no build step is needed. Optional Google Fonts have system-font fallbacks.
+
+The adaptive information-weighted revision is a method pending full evaluation. Demonstration weights use hypothetical inputs. MLIP topics are future interests. CO₂RR comparisons show reported gas-product endpoints. The original CV and full team report are not distributed.
