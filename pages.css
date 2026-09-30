@@ -17,3 +17,5 @@ html{scroll-behavior:auto;scroll-padding-top:20px}body{background:#f4f7f8}a{touc
 
 .portrait-photo{display:block;height:auto;max-height:330px;width:auto;max-width:100%;object-fit:contain;justify-self:center;border:0}
 @media(max-width:480px){.portrait-photo{height:auto;max-height:290px;width:auto;max-width:100%;justify-self:center}}
+
+.home-page .topic-image{object-fit:contain;background:#fff}
