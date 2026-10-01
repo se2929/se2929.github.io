@@ -1,2 +1,6 @@
 .ulm-pair{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:22px 0 12px}.ulm-pair img{height:250px;object-fit:contain}.ulm-pair figcaption{text-align:center}.research-journey>.journey-steps{margin-top:26px}.comparison-panel .journey-figure{margin-bottom:22px}.article-content .dialog-meta{margin-top:32px}.research-journey .small-note{margin-top:17px;color:#61777f}@media(max-width:600px){.ulm-pair{gap:12px}.ulm-pair img{height:170px}.ulm-pair .journey-figure{padding:8px}.ulm-pair figcaption{font-size:11px}}@media(max-width:380px){.ulm-pair{grid-template-columns:1fr}.ulm-pair img{height:220px}}
 .ulm-energy-figure{max-width:690px;margin:24px auto}.ulm-supporting{margin-top:22px;border-top:1px solid #d7e1e2;padding-top:16px}.ulm-supporting summary{cursor:pointer;color:#346d63;font-size:15px}.ulm-supporting summary:focus-visible{outline:2px solid #347e70;outline-offset:4px}
+
+/* Clip only the blank lower margin; preserve the original plot and axis labels. */
+.bader-figure a{position:relative;aspect-ratio:1.97;overflow:hidden}
+.bader-figure img{position:absolute;inset:0 auto auto 0;width:100%;height:auto}
