@@ -19,3 +19,6 @@ html{scroll-behavior:auto;scroll-padding-top:20px}body{background:#f4f7f8}a{touc
 @media(max-width:480px){.portrait-photo{height:auto;max-height:290px;width:auto;max-width:100%;justify-self:center}}
 
 .home-page .topic-image{object-fit:contain;background:#fff}
+
+/* Keep the longer site title and navigation readable on small screens. */
+@media(max-width:600px){.page-nav{height:auto;min-height:84px;flex-wrap:wrap;gap:10px 24px;padding:16px 0}.page-nav nav{flex-wrap:wrap}}
